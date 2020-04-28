@@ -2,12 +2,7 @@ import os
 import sys
 import re
 
-version_re = re.compile("""__version__[\s]*=[\s]*['|"](.*)['|"]""")
-
-with open("{{ cookiecutter.project_name }}.py") as f:
-    content = f.read()
-    match = version_re.search(content)
-    version = match.group(1)
+from helloworld import __version__ as version
 
 readme = os.path.join(os.path.dirname(__file__), "README.md")
 with open(readme) as f:
