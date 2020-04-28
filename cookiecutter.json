@@ -3,5 +3,6 @@
     "email": "bastien.laby@gmail.com",
     "project_name": "Simplefile",
     "repo_name": "simplefile",
-    "project_short_description": ""
+    "project_short_description": "",
+    "version": "0.1.0"
 }
