@@ -17,7 +17,7 @@
         "editor.minimap.renderCharacters": true,
         "editor.tabCompletion": "on",
 
-        "window.zoomLevel": 2,
+        "window.zoomLevel": 1,
 
         "python.formatting.provider": "black",
         "python.formatting.blackPath": ".\\Scripts\\black",
