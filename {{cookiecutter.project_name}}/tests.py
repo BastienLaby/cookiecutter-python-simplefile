@@ -13,7 +13,7 @@ class MyTest(TestCase):
     def tearDown(self):
         super(MyTest, self).tearDown()
 
-    def my_custom_test(self):
+    def test_main_func(self):
         main_func()
 
 
