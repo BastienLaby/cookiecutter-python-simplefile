@@ -14,7 +14,7 @@ class MyTest(TestCase):
         super(MyTest, self).tearDown()
 
     def my_custom_test(self):
-        pass
+        main_func()
 
 
 if __name__ == "__main__":
